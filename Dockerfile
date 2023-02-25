@@ -9,5 +9,5 @@ ENV TZ=Asia/Tokyo
 RUN useradd bot-todo -m
 USER bot-todo
 WORKDIR /bot-todo
-COPY . /app
+COPY . /bot-todo
 CMD ["sh", "run.sh"]
