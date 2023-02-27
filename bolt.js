@@ -13,8 +13,8 @@ dotenv.config();
 const todo = require('todo');
 
 const app = new bolt.App({
-    token: process.env.SLACK_BOT_TOKEN,
-    appToken: process.env.SLACK_APP_TOKEN,
+    token: process.dotenv-rails.SLACK_BOT_TOKEN,
+    appToken: process.dotenv-rails.SLACK_APP_TOKEN,
     socketMode: true,
     loglevel: 'debug'
 });
